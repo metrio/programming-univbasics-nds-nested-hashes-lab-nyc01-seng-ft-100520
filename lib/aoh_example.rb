@@ -12,11 +12,18 @@ def assembled_aoh
         JOELLE_VD,
         PAT_M,
         KATE_G,
-        BRUCE_G] # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
+        BRUCE_G
+        ] 
 end
 
 def literal_aoh
+  literal_aoh = [
+    {:name => "Don Gately", :occupation => "Live-in Staff"},
+    {},
+    {},
+    {},
+    {}
+    ] 
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
